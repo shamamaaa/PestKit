@@ -1,0 +1,104 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Areas\" />
+    <None Remove="Controllers\" />
+    <None Remove="DAL\" />
+    <None Remove="Models\" />
+    <None Remove="Utilities\" />
+    <None Remove="Views\" />
+    <None Remove="Utilities\Extensions\" />
+    <None Remove="Views\Home\" />
+    <None Remove="Views\Shared\" />
+    <None Remove="Areas\Admin\" />
+    <None Remove="Areas\Admin\Controllers\" />
+    <None Remove="Areas\Admin\ViewModels\" />
+    <None Remove="Areas\Admin\Views\" />
+    <None Remove="Areas\Admin\ViewModels\Author\" />
+    <None Remove="Areas\Admin\ViewModels\Blog\" />
+    <None Remove="Areas\Admin\ViewModels\Department\" />
+    <None Remove="Areas\Admin\ViewModels\Employee\" />
+    <None Remove="Areas\Admin\ViewModels\Position\" />
+    <None Remove="Areas\Admin\ViewModels\Tag\" />
+    <None Remove="Areas\Admin\Views\Author\" />
+    <None Remove="Areas\Admin\Views\Blog\" />
+    <None Remove="Areas\Admin\Views\Department\" />
+    <None Remove="Areas\Admin\Views\Employee\" />
+    <None Remove="Areas\Admin\Views\Home\" />
+    <None Remove="Areas\Admin\Views\Position\" />
+    <None Remove="Areas\Admin\Views\Shared\" />
+    <None Remove="Areas\Admin\Views\Tag\" />
+    <None Remove="Areas\Admin\ViewModels\Project\" />
+    <None Remove="Areas\Admin\Views\Project\" />
+    <None Remove="Views\Project\" />
+    <None Remove="Views\Department\" />
+    <None Remove="Views\Account\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Utilities\Enums\" />
+    <None Remove="Views\Product\" />
+    <None Remove="Views\Basket\" />
+    <None Remove="Areas\Admin\ViewModels\Product\" />
+    <None Remove="Areas\Admin\Views\Product\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="DAL\" />
+    <Folder Include="Models\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Views\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="Utilities\Extensions\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\ViewModels\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Areas\Admin\ViewModels\Author\" />
+    <Folder Include="Areas\Admin\ViewModels\Blog\" />
+    <Folder Include="Areas\Admin\ViewModels\Department\" />
+    <Folder Include="Areas\Admin\ViewModels\Employee\" />
+    <Folder Include="Areas\Admin\ViewModels\Position\" />
+    <Folder Include="Areas\Admin\ViewModels\Tag\" />
+    <Folder Include="Areas\Admin\Views\Author\" />
+    <Folder Include="Areas\Admin\Views\Blog\" />
+    <Folder Include="Areas\Admin\Views\Department\" />
+    <Folder Include="Areas\Admin\Views\Employee\" />
+    <Folder Include="Areas\Admin\Views\Home\" />
+    <Folder Include="Areas\Admin\Views\Position\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Areas\Admin\Views\Tag\" />
+    <Folder Include="Areas\Admin\ViewModels\Project\" />
+    <Folder Include="Areas\Admin\Views\Project\" />
+    <Folder Include="Views\Project\" />
+    <Folder Include="Views\Department\" />
+    <Folder Include="Views\Blog\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Utilities\Enums\" />
+    <Folder Include="Views\Product\" />
+    <Folder Include="Views\Basket\" />
+    <Folder Include="Areas\Admin\ViewModels\Product\" />
+    <Folder Include="Areas\Admin\Views\Product\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.14">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.25" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>

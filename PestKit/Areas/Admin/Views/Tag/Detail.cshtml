@@ -1,0 +1,32 @@
+﻿@model Tag
+
+
+<div class="container">
+    <div class="col-12 text-center mt-4 mb-5">
+        <ul class="list-group">
+            <li class="list-group-item active" aria-current="true">@Model.Name</li>
+            <li class="list-group-item">Blog count: @Model.BlogTags.Count</li>
+        </ul>
+    </div>
+
+    <div class="col">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var item in Model.BlogTags)
+            {
+                <div class="col">
+                    <div class="card">
+                        <img src="~/img/@item.Blog.ImageUrl" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Author:@item.Blog.Author.Name @item.Blog.Author.Surname</h5>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <a asp-action="index" asp-controller="tag" class="btn btn-success">
+            Go back
+        </a>
+    </div>
+
+</div>
+

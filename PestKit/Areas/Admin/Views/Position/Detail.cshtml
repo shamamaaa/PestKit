@@ -1,0 +1,33 @@
+﻿@model Position
+
+
+<div class="container">
+    <div class="col-12 text-center mt-4 mb-5">
+        <ul class="list-group">
+            <li class="list-group-item active" aria-current="true">@Model.Name</li>
+            <li class="list-group-item">Employee count: @Model.Employees.Count</li>
+        </ul>
+    </div>
+
+    <div class="col">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (Employee item in Model.Employees)
+            {
+                <div class="col">
+                    <div class="card">
+                        <img src="~/img/@item.ImageUrl" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Name:@item.Name @item.Surname</h5>
+                            <p class="card-text">Department: @item.Department.Name</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <a asp-action="index" asp-controller="position" class="btn btn-success">
+            Go back
+        </a>
+    </div>
+
+</div>
+

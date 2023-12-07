@@ -1,0 +1,40 @@
+﻿@model CreateProjectVM
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Create project</h1>
+                        <form class="forms-sample" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label asp-for="MainPhoto">Main photo</label>
+                                <input asp-for="MainPhoto" class="form-control" placeholder="MainPhoto">
+                                <span class="text-danger" asp-validation-for="MainPhoto"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="OtherPhotos">Additional photos</label>
+                                <input asp-for="OtherPhotos" class="form-control" placeholder="OtherPhotos">
+                                <span class="text-danger" asp-validation-for="OtherPhotos"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Name">Name</label>
+                                <input asp-for="Name" class="form-control" placeholder="Name">
+                                <span class="text-danger" asp-validation-for="Name"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description">Description</label>
+                                <input asp-for="Description" class="form-control" placeholder="Description">
+                                <span class="text-danger" asp-validation-for="Description"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary me-2">Submit</button>
+                            <button asp-action="index" asp-controller="project" class="btn btn-danger">Cancel</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

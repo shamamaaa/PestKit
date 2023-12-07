@@ -1,0 +1,58 @@
+﻿@model UpdateBlogVM
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Update blog</h1>
+                        <form class="forms-sample" method="post" enctype="multipart/form-data">
+
+                            <div class="form-group">
+                                <img style="width:150px;height:150px" src="~/img/@Model.ImageUrl" />
+                            </div>
+                            <input type="hidden" asp-for="ImageUrl"/>
+                            <div class="form-group">
+                                <label asp-for="Photo">Photo</label>
+                                <input asp-for="Photo" class="form-control" placeholder="Photo">
+                                <span class="text-danger" asp-validation-for="Photo"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Name">Title</label>
+                                <input asp-for="Name" class="form-control" placeholder="Name">
+                                <span class="text-danger" asp-validation-for="Name"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="CommentCount">Comment Count</label>
+                                <input asp-for="CommentCount" class="form-control" placeholder="CommentCount">
+                                <span class="text-danger" asp-validation-for="CommentCount"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description">Description</label>
+                                <input asp-for="Description" class="form-control" placeholder="Description">
+                                <span class="text-danger" asp-validation-for="Description"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="AuthorId">Authors</label>
+                                <select asp-for="AuthorId" asp-items="Model.Authors" class="form-control">
+                                    <option selected disabled>Choose author</option>
+                                </select>
+                                <span class="text-danger" asp-validation-for="AuthorId"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="TagIds">Tags</label>
+                                <select asp-for="TagIds" asp-items="Model.Tags" class="form-control">
+                                    <option selected disabled>Choose tags</option>
+                                </select>
+                                <span class="text-danger" asp-validation-for="TagIds"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary me-2">Submit</button>
+                            <button asp-action="index" asp-controller="blog" class="btn btn-danger">Cancel</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

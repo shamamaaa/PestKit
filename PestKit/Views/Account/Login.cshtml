@@ -1,0 +1,36 @@
+﻿@model LoginVM
+
+<!-- Login Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 offset-4">
+                <form method="post">
+                    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                    <div class="mb-3">
+                        <label asp-for="UsernameOrEmail" class="form-label">Email</label>
+                        <input asp-for="UsernameOrEmail" class="form-control" placeholder="Username or email">
+                        <span asp-validation-for="UsernameOrEmail" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Password" class="form-label">Password</label>
+                        <input asp-for="Password" class="form-control" placeholder="Password">
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="IsRemembered">Remember me</label>
+                        <input style="margin-left:5px;" asp-for="IsRemembered" placeholder="IsRemembered" />
+                    </div>
+                    <div class="mb-3 text-warning">
+                        <a asp-action="register" asp-controller="account">You don't have an account</a>
+                    </div>
+
+                    <div class="mb-3">
+                        <button class="btn btn-warning w-100">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Login End -->

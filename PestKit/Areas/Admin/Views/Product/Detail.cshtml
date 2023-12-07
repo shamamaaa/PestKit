@@ -1,0 +1,9 @@
+﻿@model Product
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <h6 class="card-subtitle mb-2 text-muted">$@Model.Price</h6>
+        <a asp-action="index" asp-controller="product" class="card-link">Go back</a>
+    </div>
+</div>

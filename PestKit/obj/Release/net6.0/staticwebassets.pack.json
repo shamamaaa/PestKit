@@ -1,0 +1,477 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/.DS_Store",
+      "PackagePath": "staticwebassets/admin/.DS_Store"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/css/maps/style.css.map",
+      "PackagePath": "staticwebassets/admin/css/maps/style.css.map"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/css/style.css",
+      "PackagePath": "staticwebassets/admin/css/style.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/.DS_Store",
+      "PackagePath": "staticwebassets/admin/fonts/.DS_Store"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/.DS_Store",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/.DS_Store"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Black.eot",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Black.eot"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Black.ttf",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Black.ttf"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Black.woff",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Black.woff"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Black.woff2",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Black.woff2"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Bold.eot",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Bold.eot"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Bold.ttf"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Bold.woff",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Bold.woff"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Bold.woff2"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Light.eot",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Light.eot"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Light.ttf",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Light.ttf"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Light.woff",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Light.woff"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Light.woff2",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Light.woff2"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Medium.eot",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Medium.eot"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Medium.ttf"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Medium.woff",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Medium.woff"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Medium.woff2"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Regular.eot",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Regular.eot"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Regular.ttf"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Regular.woff",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Regular.woff"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/fonts/Roboto/Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets/admin/fonts/Roboto/Roboto-Regular.woff2"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/.DS_Store",
+      "PackagePath": "staticwebassets/admin/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/Chart.min.js",
+      "PackagePath": "staticwebassets/admin/js/Chart.min.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/chart.js",
+      "PackagePath": "staticwebassets/admin/js/chart.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/dashboard.js",
+      "PackagePath": "staticwebassets/admin/js/dashboard.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/data-table.js",
+      "PackagePath": "staticwebassets/admin/js/data-table.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets/admin/js/dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/documentation.js",
+      "PackagePath": "staticwebassets/admin/js/documentation.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/file-upload.js",
+      "PackagePath": "staticwebassets/admin/js/file-upload.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/hoverable-collapse.js",
+      "PackagePath": "staticwebassets/admin/js/hoverable-collapse.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/jquery.cookie.js",
+      "PackagePath": "staticwebassets/admin/js/jquery.cookie.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/jquery.dataTables.js",
+      "PackagePath": "staticwebassets/admin/js/jquery.dataTables.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/off-canvas.js",
+      "PackagePath": "staticwebassets/admin/js/off-canvas.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/tabs.js",
+      "PackagePath": "staticwebassets/admin/js/tabs.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/js/template.js",
+      "PackagePath": "staticwebassets/admin/js/template.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/.DS_Store",
+      "PackagePath": "staticwebassets/admin/vendors/.DS_Store"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/base/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/admin/vendors/base/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/base/vendor.bundle.base.css",
+      "PackagePath": "staticwebassets/admin/vendors/base/vendor.bundle.base.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/base/vendor.bundle.base.js",
+      "PackagePath": "staticwebassets/admin/vendors/base/vendor.bundle.base.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/chart.js/Chart.min.js",
+      "PackagePath": "staticwebassets/admin/vendors/chart.js/Chart.min.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/datatables.net/jquery.dataTables.js",
+      "PackagePath": "staticwebassets/admin/vendors/datatables.net/jquery.dataTables.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/mdi/css/materialdesignicons.min.css",
+      "PackagePath": "staticwebassets/admin/vendors/mdi/css/materialdesignicons.min.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/mdi/css/materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets/admin/vendors/mdi/css/materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/mdi/fonts/materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets/admin/vendors/mdi/fonts/materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/mdi/fonts/materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets/admin/vendors/mdi/fonts/materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/mdi/fonts/materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets/admin/vendors/mdi/fonts/materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/admin/vendors/mdi/fonts/materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets/admin/vendors/mdi/fonts/materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/17ae4816-21fd-4897-b0f6-78f951959d31.jpeg",
+      "PackagePath": "staticwebassets/img/17ae4816-21fd-4897-b0f6-78f951959d31.jpeg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/196934c4-44e5-49fa-b6ff-59678b387b6e.jpg",
+      "PackagePath": "staticwebassets/img/196934c4-44e5-49fa-b6ff-59678b387b6e.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/26305d42-be28-489f-a8cb-5a7df84bd39f.jpg",
+      "PackagePath": "staticwebassets/img/26305d42-be28-489f-a8cb-5a7df84bd39f.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/3cdf0941-19cd-4008-a94c-ea1cb93c8194.jpg",
+      "PackagePath": "staticwebassets/img/3cdf0941-19cd-4008-a94c-ea1cb93c8194.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/41abd825-1e5d-4061-83c4-63640af3310b.jpg",
+      "PackagePath": "staticwebassets/img/41abd825-1e5d-4061-83c4-63640af3310b.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/5ee86c90-82e3-404a-8f90-026011e3d659.jpg",
+      "PackagePath": "staticwebassets/img/5ee86c90-82e3-404a-8f90-026011e3d659.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/6a82cb76-f6d6-4782-8425-d5ba007b40e1.jpg",
+      "PackagePath": "staticwebassets/img/6a82cb76-f6d6-4782-8425-d5ba007b40e1.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/811042d3-6103-49e0-bda6-284778eaa73d.jpg",
+      "PackagePath": "staticwebassets/img/811042d3-6103-49e0-bda6-284778eaa73d.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/8177ba66-29a3-4579-a797-5d87946cb721.png",
+      "PackagePath": "staticwebassets/img/8177ba66-29a3-4579-a797-5d87946cb721.png"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/890a0fcf-600e-46a5-b8ea-81146cdc2b52.jpg",
+      "PackagePath": "staticwebassets/img/890a0fcf-600e-46a5-b8ea-81146cdc2b52.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/902a1e2c-e8f5-45f6-b094-4c4c3fe11005.jpg",
+      "PackagePath": "staticwebassets/img/902a1e2c-e8f5-45f6-b094-4c4c3fe11005.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/951e236f-a461-404c-a472-630e4ee6773f.jpg",
+      "PackagePath": "staticwebassets/img/951e236f-a461-404c-a472-630e4ee6773f.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/9cdfbdeb-5fd4-4eb7-954e-5fbe9a7bcb6c.jpg",
+      "PackagePath": "staticwebassets/img/9cdfbdeb-5fd4-4eb7-954e-5fbe9a7bcb6c.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/about-img.jpg",
+      "PackagePath": "staticwebassets/img/about-img.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/action.jpg",
+      "PackagePath": "staticwebassets/img/action.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/b20f2ba8-86b7-443e-aecc-26f7b04e5642.jpg",
+      "PackagePath": "staticwebassets/img/b20f2ba8-86b7-443e-aecc-26f7b04e5642.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/blog-1.jpg",
+      "PackagePath": "staticwebassets/img/blog-1.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/blog-2.jpg",
+      "PackagePath": "staticwebassets/img/blog-2.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/blog-3.jpg",
+      "PackagePath": "staticwebassets/img/blog-3.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/c93f3a56-1813-45fa-bfba-fcc4e950ae18.jpg",
+      "PackagePath": "staticwebassets/img/c93f3a56-1813-45fa-bfba-fcc4e950ae18.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/carousel-1.jpg",
+      "PackagePath": "staticwebassets/img/carousel-1.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/carousel-2.jpg",
+      "PackagePath": "staticwebassets/img/carousel-2.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/f711b203-08c1-4a52-990c-a4c088b3a96a.jpg",
+      "PackagePath": "staticwebassets/img/f711b203-08c1-4a52-990c-a4c088b3a96a.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/fc3ac2ed-d9c9-4c06-974e-76452d7876a9.jpg",
+      "PackagePath": "staticwebassets/img/fc3ac2ed-d9c9-4c06-974e-76452d7876a9.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/project-1.jpg",
+      "PackagePath": "staticwebassets/img/project-1.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/project-2.jpg",
+      "PackagePath": "staticwebassets/img/project-2.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/project-3.jpg",
+      "PackagePath": "staticwebassets/img/project-3.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/project-4.jpg",
+      "PackagePath": "staticwebassets/img/project-4.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/project-5.jpg",
+      "PackagePath": "staticwebassets/img/project-5.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/project-6.jpg",
+      "PackagePath": "staticwebassets/img/project-6.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/team-1..jpg",
+      "PackagePath": "staticwebassets/img/team-1..jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/team-2.jpg",
+      "PackagePath": "staticwebassets/img/team-2.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/team-3.jpg",
+      "PackagePath": "staticwebassets/img/team-3.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/team-4.jpg",
+      "PackagePath": "staticwebassets/img/team-4.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/testimonial-1.jpg",
+      "PackagePath": "staticwebassets/img/testimonial-1.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/testimonial-2.jpg",
+      "PackagePath": "staticwebassets/img/testimonial-2.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/testimonial-3.jpg",
+      "PackagePath": "staticwebassets/img/testimonial-3.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/img/testimonial-4.jpg",
+      "PackagePath": "staticwebassets/img/testimonial-4.jpg"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/animate/animate.css",
+      "PackagePath": "staticwebassets/lib/animate/animate.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/animate/animate.min.css",
+      "PackagePath": "staticwebassets/lib/animate/animate.min.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/easing/easing.js",
+      "PackagePath": "staticwebassets/lib/easing/easing.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/easing/easing.min.js",
+      "PackagePath": "staticwebassets/lib/easing/easing.min.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/owlcarousel/LICENSE",
+      "PackagePath": "staticwebassets/lib/owlcarousel"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/owlcarousel/assets/ajax-loader.gif",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/owlcarousel/assets/owl.carousel.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/owlcarousel/assets/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/owlcarousel/assets/owl.theme.default.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.default.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/owlcarousel/assets/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/owlcarousel/assets/owl.theme.green.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.green.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/owlcarousel/assets/owl.theme.green.min.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.green.min.css"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/owlcarousel/assets/owl.video.play.png",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.video.play.png"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/owlcarousel/owl.carousel.js",
+      "PackagePath": "staticwebassets/lib/owlcarousel/owl.carousel.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/owlcarousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/lib/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/waypoints/links.php",
+      "PackagePath": "staticwebassets/lib/waypoints/links.php"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/waypoints/waypoints.min.js",
+      "PackagePath": "staticwebassets/lib/waypoints/waypoints.min.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/wow/wow.js",
+      "PackagePath": "staticwebassets/lib/wow/wow.js"
+    },
+    {
+      "Id": "/Users/shamamaguliyeva/Projects/PestKit/PestKit/wwwroot/lib/wow/wow.min.js",
+      "PackagePath": "staticwebassets/lib/wow/wow.min.js"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.PestKit.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.build.PestKit.props",
+      "PackagePath": "build\\PestKit.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.buildMultiTargeting.PestKit.props",
+      "PackagePath": "buildMultiTargeting\\PestKit.props"
+    },
+    {
+      "Id": "obj/Release/net6.0/staticwebassets/msbuild.buildTransitive.PestKit.props",
+      "PackagePath": "buildTransitive\\PestKit.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

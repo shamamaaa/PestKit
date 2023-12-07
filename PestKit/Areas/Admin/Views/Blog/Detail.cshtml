@@ -1,0 +1,26 @@
+﻿@model Blog
+
+<div class="row justify-content-center">
+    <div class="col-8 text-center">
+        <div class="card m-3">
+            <img src="~/img/@Model.ImageUrl" class="card-img-top" alt="">
+            <div class="card-body">
+                <h4 class="card-title">Name: @Model.Name</h4>
+                <p class="card-text">Description: @Model.Description</p>
+                <p class="card-text">Comment count: @Model.CommentCount</p>
+                <p class="card-text">Create time: @Model.CreateTime</p>
+                <p class="card-text">Author: @Model.Author.Name @Model.Author.Surname</p>
+                <p class="card-text">Tags:
+                    @foreach (var item in Model.BlogTags)
+                        {
+                           <span>@item.Tag.Name ;</span>  
+                        }
+                </p>
+            </div>
+        </div>
+        <a asp-action="index" asp-controller="blog" class="btn btn-success">
+            Go back
+        </a>
+    </div>
+</div>
+

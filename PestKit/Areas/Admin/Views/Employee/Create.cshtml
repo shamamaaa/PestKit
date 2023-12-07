@@ -1,0 +1,69 @@
+﻿@model CreateEmployeeVM
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Create employee</h1>
+                        <form class="forms-sample" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label asp-for="Photo">Photo</label>
+                                <input asp-for="Photo" class="form-control" placeholder="Photo">
+                                <span class="text-danger" asp-validation-for="Photo"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Name">Name</label>
+                                <input asp-for="Name" class="form-control" placeholder="Name">
+                                <span class="text-danger" asp-validation-for="Name"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Surname">Surname</label>
+                                <input asp-for="Surname" class="form-control" placeholder="Surname">
+                                <span class="text-danger" asp-validation-for="Surname"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="IgAcc">Ig Acc</label>
+                                <input asp-for="IgAcc" class="form-control" placeholder="IgAcc">
+                                <span class="text-danger" asp-validation-for="IgAcc"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="FbAcc">Fb Acc</label>
+                                <input asp-for="FbAcc" class="form-control" placeholder="FbAcc">
+                                <span class="text-danger" asp-validation-for="FbAcc"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="TwAcc">Tw Acc</label>
+                                <input asp-for="TwAcc" class="form-control" placeholder="TwAcc">
+                                <span class="text-danger" asp-validation-for="TwAcc"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="LinAcc">Lin Acc</label>
+                                <input asp-for="LinAcc" class="form-control" placeholder="LinAcc">
+                                <span class="text-danger" asp-validation-for="LinAcc"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="DepartmentId">Department</label>
+                                <select asp-for="DepartmentId" asp-items="new SelectList(ViewBag.Departments,nameof(Department.Id),nameof(Department.Name))" class="form-control">
+                                    <option selected disabled>Choose department</option>
+                                </select>
+                                <span class="text-danger" asp-validation-for="DepartmentId"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="PositionId">Position</label>
+                                <select asp-for="PositionId" asp-items="new SelectList(ViewBag.Positions,nameof(Position.Id),nameof(Position.Name))" class="form-control">
+                                    <option selected disabled>Choose position</option>
+                                </select>
+                                <span class="text-danger" asp-validation-for="PositionId"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary me-2">Submit</button>
+                            <button asp-action="index" asp-controller="employee" class="btn btn-danger">Cancel</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

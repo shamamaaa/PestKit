@@ -1,0 +1,88 @@
+﻿@model List<Blog>
+@{ int count = 0;}
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title .h1">Blog</h1>
+
+            <a asp-action="create" asp-controller="blog" class="btn btn-success">
+                Create blog
+            </a>
+
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                No
+                            </th>
+                            <th>
+                                Image
+                            </th>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Tags
+                            </th>
+                            <th>
+                                Author
+                            </th>
+                            <th>
+                                Settings
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var item in Model)
+                        {
+                            count++;
+                            <tr>
+                                <td>
+                                    @count
+                                </td>
+                                <td>
+                                    <img style="width:80px;height:80px;" src="~/img/@item.ImageUrl" />
+                                </td>
+                                <td>
+                                    @item.Name
+                                </td>
+                                <td>
+                                    @foreach (var bt in item.BlogTags)
+                                    {
+                                        <p>@bt.Tag.Name</p>
+                                    }
+                                </td>
+                                <td>
+                                    @item.Author.Name @item.Author.Surname
+                                </td>
+
+                                <td>
+                                    <div class="btn-group">
+                                        <a class="btn-sm btn btn-danger" asp-action="Delete" asp-controller="Blog" asp-route-id="@item.Id">
+                                            <i class="mdi mdi-delete-forever btn-icon-primary">
+                                            </i>
+                                        </a>
+                                        <a class="btn-sm btn btn-warning" asp-action="Update" asp-controller="Blog" asp-route-id="@item.Id">
+                                            <i class="mdi mdi-lead-pencil btn-icon-primary">
+                                            </i>
+                                        </a>
+                                        <a class="btn-sm btn btn-primary" asp-action="Detail" asp-controller="Blog" asp-route-id="@item.Id">
+                                            <i class="mdi mdi-open-in-new btn-icon-primary">
+                                            </i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,24 @@
+﻿@model Employee
+
+
+<div class="container">
+    <div class="col">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="~/img/@Model.ImageUrl" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Name:@Model.Name @Model.Surname</h5>
+                            <p class="card-text">Position: @Model.Position.Name</p>
+                            <p class="card-text">Position: @Model.Department.Name</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <a asp-action="index" asp-controller="employee" class="btn btn-success">
+            Go back
+        </a>
+    </div>
+
+</div>
+
